@@ -1,0 +1,4 @@
+#!/bin/bash
+awk -F" " '{print $1, $2, $5, $6}' Dealer_schedule | grep -i Billy 
+echo "script completm for 03/10"
+echo "to find a certain day and time type | sed -n " p" "
